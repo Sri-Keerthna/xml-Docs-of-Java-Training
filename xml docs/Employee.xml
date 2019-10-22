@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE emp
+[
+<!ELEMENT note (empno,name,salary,doj)>
+<!ELEMENT empno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT band (#PCDATA)>
+<!ELEMENT doj (#PCDATA)>
+]>
+
+<employee>
+
+<emp>
+<empno>21</empno>
+<name>Madhu</name>
+<salary>15000</salary>
+<band>Manager</band>
+<doj>2008-05-23</doj>
+</emp>
+
+<emp>
+<empno>17</empno>
+<name>Soundarraj</name>
+<salary>9000</salary>
+<band>Contractor</band>
+<doj>2008-06-17</doj>
+</emp>
+
+<emp>
+<empno>1</empno>
+<name>Sri</name>
+<salary>10000</salary>
+<band>Employee</band>
+<doj>2015-09-22</doj>
+</emp>
+
+</employee>
